@@ -1,0 +1,34 @@
+/*# sourceMappingURL=Style.css.map */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(3, 43, 66);
+  }
+  
+  nav {
+    float: center;
+  }
+  
+  nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(6, 57, 116);
+    
+    h1 {font-family: roboto;
+        color : red;
+        font-style: oblique;
+    }
+    p{ 
+        letter-spacing: 4px;
+        word-spacing: 4px;
+    }
+
+
