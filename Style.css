@@ -79,3 +79,108 @@ nav {
   background-color: rgb(233, 233, 233) ;
 }
 /*troisieme bloc */
+div.gallery {
+  margin: 15px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+#part3 {
+  margin: 0px;
+  border: 2px solid rgb(255, 255, 255);
+  background-color:rgb(233, 233, 233) ;
+  text-align: center;
+  
+}
+.part4 { 
+  border: 1px solid rgb(255, 255, 255) ;
+  width:100%;
+  height: 400px;
+  background-image: url('Image/backgroundpink.PNG') ;
+  background-repeat : no-repeat;
+  background-size : cover;
+
+}
+table, th, td {
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+ font-style: white;
+ padding: 20px;
+}
+
+.part5 { 
+    border: 2px solid rgb(255, 255, 255) ;
+    width:100%;
+    height: 850px;
+    background-color: rgb(233, 233, 233);
+    
+    
+}
+  input[type=text] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 236, 236);
+  }
+  
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    border : dotted rgb(13, 236, 236)
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: ;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border : solid rgb(13, 236, 236);
+  }
+  button[type=Submit] {
+    background-color: rgb(13, 236, 236);
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type=date] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 236, 236);
+  }
+  input[type=number] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 2px solid rgb(13, 236, 236);
+  }
+  .part6 {
+background-color:  rgb(13, 236, 236);
+font-style :white ;
+  }
